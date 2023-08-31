@@ -41,6 +41,6 @@
 # #output_msg = "For only {price} dollars! {msg}".format(price=price, msg=msg)
 # #print(output_msg)
 #
-# output_msg = f"FOr only {price:2f} dollars! {msg}"
+# output_msg = f"For only {price:2f} dollars! {msg}"
 # print(output_msg)
 
