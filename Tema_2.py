@@ -1,9 +1,9 @@
-""" 1. Sa se verifice daca textul introdus de la tastatura de catre un utilizator este un sir de
+''' 1. Sa se verifice daca textul introdus de la tastatura de catre un utilizator este un sir de
 caractere de tip string sau un sir de numere. Utilizati instructiunea de tip if-elif-else.
 In cazul in care valoarea este un sir de caractere, afisati pe ecran mesajul “Sirul de
 caractere a fost gasit de Mihai”, unde Mihai reprezinta numele vostru
 preluat automat de la tastatura.
-"""
+'''
 
 # text_introdus = input('Introdu textul aici: ')
 # nume = input('Introdu numele tau: ') #cum scriu aici ca input-ul sa fie identificat ca fiind de tipuri diferite (str, int, alt tip)
@@ -15,9 +15,10 @@ preluat automat de la tastatura.
 #     print('Sirul de caractere este de un alt tip')
 
 
-"""
-2. Creati un program in care utilizatorul sa introduca un numar. Validati daca acest
-numar este par sau impar si afisati un raspuns in acest sens."""
+'''2. Creati un program in care utilizatorul sa introduca un numar. Validati daca acest
+numar este par sau impar si afisati un raspuns in acest sens.
+'''
+
 
 # numar_introdus = int(input('Numarul introdus = '))
 # if numar_introdus % 2 == 0:
