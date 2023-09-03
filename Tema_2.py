@@ -1,12 +1,12 @@
-''' 1. Sa se verifice daca textul introdus de la tastatura de catre un utilizator este un sir de
+'''1. Sa se verifice daca textul introdus de la tastatura de catre un utilizator este un sir de
 caractere de tip string sau un sir de numere. Utilizati instructiunea de tip if-elif-else.
 In cazul in care valoarea este un sir de caractere, afisati pe ecran mesajul “Sirul de
 caractere a fost gasit de Mihai”, unde Mihai reprezinta numele vostru
 preluat automat de la tastatura.
 '''
-
 # text_introdus = input('Introdu textul aici: ')
-# nume = input('Introdu numele tau: ') #cum scriu aici ca input-ul sa fie identificat ca fiind de tipuri diferite (str, int, alt tip)
+# nume = input('Introdu numele tau: ') #cum scriu aici ca input-ul sa fie identificat
+#                                       ca fiind de tipuri diferite (str, int, alt tip)
 # if (type(text_introdus)) is str:
 #     print('Sirul de caractere ' + text_introdus + ' a fost gasit de ' + nume)
 # elif (type(text_introdus)) is int:
@@ -70,15 +70,15 @@ element” - daca utilizatorul scrie de la tastaura 4 afisati “Sterere lista d
 scrie altceva de la tastaura afisati “Alegerea nu exista. Reincercati”'''
 
 numar_introdus = int(input('Numarul introdus = '))
-if (numar_introdus == 1):
+if numar_introdus == 1:
     print('Afisare lista de cumparaturi')
-elif(numar_introdus == 2):
+elif numar_introdus == 2:
     print('Adaugare element')
-elif (numar_introdus == 3):
+elif numar_introdus == 3:
     print('Stergere element')
-elif (numar_introdus == 4):
+elif numar_introdus == 4:
     print('Sterere lista de cumparaturi')
-elif (numar_introdus == 5):
+elif numar_introdus == 5:
     print('Cautare in lista de cumparaturi')
 else:
     print('Alegerea nu exista. Reincercati!')
