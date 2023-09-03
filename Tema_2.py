@@ -69,16 +69,70 @@ element” - daca utilizatorul scrie de la tastaura 4 afisati “Sterere lista d
 - daca utilizatorul scrie de la tastaura 5 afisati “Adaugare element” - daca utilizatorul
 scrie altceva de la tastaura afisati “Alegerea nu exista. Reincercati”'''
 
-numar_introdus = int(input('Numarul introdus = '))
-if numar_introdus == 1:
-    print('Afisare lista de cumparaturi')
-elif numar_introdus == 2:
-    print('Adaugare element')
-elif numar_introdus == 3:
-    print('Stergere element')
-elif numar_introdus == 4:
-    print('Sterere lista de cumparaturi')
-elif numar_introdus == 5:
-    print('Cautare in lista de cumparaturi')
-else:
-    print('Alegerea nu exista. Reincercati!')
+# numar_introdus = int(input('Numarul introdus = '))
+# if numar_introdus == 1:
+#     print('Afisare lista de cumparaturi')
+# elif numar_introdus == 2:
+#     print('Adaugare element')
+# elif numar_introdus == 3:
+#     print('Stergere element')
+# elif numar_introdus == 4:
+#     print('Sterere lista de cumparaturi')
+# elif numar_introdus == 5:
+#     print('Cautare in lista de cumparaturi')
+# else:
+#     print('Alegerea nu exista. Reincercati!')
+
+'''6. Avand doua liste, afisati o lista a elementelor comune ambelor liste
+ a = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
+ b = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+Rezultat
+[1,2,3,5,8,13]'''
+
+# lista_a = {1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89}
+# lista_b = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13}
+# lista_elem_comune = lista_a.intersection(lista_b)
+# print(lista_elem_comune)
+
+'''7.[ { 
+   'nume': 'George',
+   'filme': ['Shrek', 'Bond', 'Fight Club']
+ },
+{
+ 'nume' : 'Cristian',
+ 'filme': ['Fight Club', 'The Nun', 'Dracula', 'Bond']
+},
+
+{
+ 'nume' : 'Stefan',
+ 'filme': ['Fight Club', 'Slumdog Milionare']
+}
+
+]
+
+Avand o lista de utilizatori si filme vizionate, listati 
+Cel mai vizionat film - Fight Club in cazul de mai sus
+Utilizatorul cu cele mai multe filme vizionate - Cristian in cazul de mai sus
+Extra
+Top filme dupa vizionari: Fight Club, Bond, Dracula, Shrek, The nun ...
+Top utilizatori cu cele mai multe filme vizionate - Cristian, George, Stefan'''
+
+person_1 = {
+    'nume': 'George',
+    'filme': ['Shrek', 'Bond', 'Fight Club']
+}
+
+person_2 = {
+    'nume' : 'Cristian',
+    'filme': ['Fight Club', 'The Nun', 'Dracula', 'Bond']
+}
+person_3 = {
+    'nume' : 'Stefan',
+    'filme': ['Fight Club', 'Slumdog Milionare']
+}
+
+ #dictionaries  - de continuat
+
+
+
+
