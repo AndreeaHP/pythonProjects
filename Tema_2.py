@@ -18,7 +18,16 @@ preluat automat de la tastatura.
 '''2. Creati un program in care utilizatorul sa introduca un numar. Validati daca acest
 numar este par sau impar si afisati un raspuns in acest sens.
 '''
-
+# def even_or_odd (number):
+#     if number % 2 == 0:
+#         return f"{number} is an even number"
+#     return f"{number} is odd"
+#
+# nr = input ('please enter a number: ')
+# if nr.isdigit():
+#     print(even_or_odd(int(nr)))
+# else:
+#     print('you did not entered a number')
 
 # numar_introdus = int(input('Numarul introdus = '))
 # if numar_introdus % 2 == 0:
@@ -68,6 +77,34 @@ afisati “Adugare element” - daca utilizatorul scrie de la tastaura 3 afisati
 element” - daca utilizatorul scrie de la tastaura 4 afisati “Sterere lista de cumparaturit”
 - daca utilizatorul scrie de la tastaura 5 afisati “Adaugare element” - daca utilizatorul
 scrie altceva de la tastaura afisati “Alegerea nu exista. Reincercati”'''
+
+# option = input()
+# print(option)
+#
+# shopping_list = ['ardei', 'cartofi', 'morcovi']
+#
+# def print_list(*args):
+#     print(shopping_list)
+#
+# def search_in_list (keyword):
+#         print(keyword in shopping_list)
+#
+# def print_not_existent_option(*args):
+#     print('Aceasta optiune nu exista')
+#
+# keyword = 'mere'
+#
+# option_dict = {
+#     '1': (print_list, None),
+#     '2': (search_in_list, keyword)
+#
+# }
+#
+# func, arg = option_dict.get(option, (print_not_existent_option, None))
+# func(arg)
+
+
+
 
 # numar_introdus = int(input('Numarul introdus = '))
 # if numar_introdus == 1:
@@ -135,4 +172,31 @@ person_3 = {
 
 
 
-
+# tema din curs
+# my_list = [7, 8, 9, 2, 3, 1, 4, 10, 5, 6 ]
+#
+# #lista ordonata ascendent
+# my_list.sort()
+# print(my_list)
+# #lista numere pare - lista ordonata ascendent
+# my_sliced_list = my_list[1::2]
+# print(my_sliced_list)
+# #lista numere impare - lista ordonata ascendent
+# my_sliced_list = my_list[::2]
+# print(my_sliced_list)
+# #lista numere multiplu de 3 - lista ordonata ascendent
+# my_sliced_list = my_list[2::3]
+# print(my_sliced_list)
+#
+# #lista ordonata descendent
+# my_list.sort(reverse=True)
+# print(my_list)
+# #lista numere pare- lista ordonata descendent
+# my_sliced_list = my_list[::2]
+# print(my_sliced_list)
+# #lista numere impare- lista ordonata descendent
+# my_sliced_list = my_list[1::2]
+# print(my_sliced_list)
+# #lista numere multiplu de 3 - lista ordonata descendent
+# my_sliced_list = my_list[1::3]
+# print(my_sliced_list)
