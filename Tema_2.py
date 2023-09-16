@@ -105,7 +105,6 @@ scrie altceva de la tastaura afisati “Alegerea nu exista. Reincercati”'''
 
 
 
-
 # numar_introdus = int(input('Numarul introdus = '))
 # if numar_introdus == 1:
 #     print('Afisare lista de cumparaturi')
@@ -147,7 +146,7 @@ Rezultat
 
 ]
 
-Avand o lista de utilizatori si filme vizionate, listati 
+Avand o lista de utilizatori si filme vizionate, listati:
 Cel mai vizionat film - Fight Club in cazul de mai sus
 Utilizatorul cu cele mai multe filme vizionate - Cristian in cazul de mai sus
 Extra
@@ -168,6 +167,12 @@ person_3 = {
     'filme': ['Fight Club', 'Slumdog Milionare']
 }
 
+movie_count = {}
+for person_data in data['filme']:
+    if movie in movie_count:
+        movie_count += 1
+    else:
+        movie_count
  #dictionaries  - de continuat
 
 
@@ -200,3 +205,7 @@ person_3 = {
 # #lista numere multiplu de 3 - lista ordonata descendent
 # my_sliced_list = my_list[1::3]
 # print(my_sliced_list)
+
+
+
+
