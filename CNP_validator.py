@@ -77,7 +77,6 @@ else:
     print('county CNP is not valid!')
 
 # validam daca cifrele NNN sunt valide
-
 def validate_NNN_digit(cnp):
     if int(cnp[9:12]) < 1 or int(cnp[9:12]) > 999:
         return False
