@@ -66,7 +66,7 @@ else:
 
 # validam daca cifrele pt judet sunt valide
 def validate_county_digit(cnp):
-    if cnp[7:9] < 1 or cnp[7:9] > 46 or != ['51', '52']:
+    if cnp[7:9] < 1 or cnp[7:9] > 46 or != ['51', '52']:   #DE CONTINUAT
         return False
     else:
         return True
@@ -79,8 +79,7 @@ else:
 
 #if validare_sex & validare_an & validare_luna & celelalte validari (zi, judet, cod): return False  = pentru a pune toate validari intr-un If
 
-# 0123456789
-# SAAMMDDJJ
+
 # 2850302270061
 
 
