@@ -1,5 +1,5 @@
 print('TEMA VALIDATOR CNP')
-
+#validam daca CNP are 13 caractere integer
 cnp = input('CNP: ')
 def validate_cnp(cnp):
     if len(cnp) != 13 or not cnp.isdigit():
@@ -7,6 +7,7 @@ def validate_cnp(cnp):
     else:
         return True
 
+#validam daca cifrele pt sex sunt valide
 validation = validate_cnp(cnp)
 if validation:
     print('CNP is valid!')
