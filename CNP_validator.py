@@ -51,11 +51,17 @@ def validate_day_digit(cnp):
 
 # validam daca cifrele pt judet sunt valide
 def validate_county_digit(cnp):
-    if int(cnp[7:9]) < 1 or int(cnp[7:9]) > 46 or cnp[7:9] not in ['51', '52']:
-        print('county CNP is valid!')
+    # if int(cnp[7:9]) < 1 or int(cnp[7:9]) > 46 or cnp[7:9] in ['51', '52']:
+    #     print('county CNP is valid!')
+    #     return True
+    # else:
+    #     print('county CNP is not valid!')
+    #     return False
+    if 1 <= int(cnp[7:9]) <= 46 or cnp[7:9] in ['51', '52']:
+        print('County CNP is valid')
         return True
     else:
-        print('county CNP is not valid!')
+        print('County CNP is not valid')
         return False
 
 # validam daca cifrele NNN sunt valide
